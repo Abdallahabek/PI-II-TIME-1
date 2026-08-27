@@ -8,7 +8,7 @@ Este é um Sistema de Acompanhamento de Demandas de Desenvolvimento, criado para
 ## Informações Acadêmicas
 * Curso: Engenharia de Software
 * Componente Curricular: Projeto Integrador II
-* Semestre/Ano: 1º Semestre / 2026
+* Semestre/Ano: 2º Semestre / 2026
 * **Professora Orientadora:** Renata Arantes
 
 ## Integrantes da Equipe
