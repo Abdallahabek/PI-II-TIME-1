@@ -1,0 +1,163 @@
+/*
+ * Autores: Abdallah Ali Borges El Khatib, Enrico Pacheco Del Manto
+ */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Fundo cinza bem claro */
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Layout Principal */
+.wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Barra Lateral (Sidebar) */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    border-right: 1px solid #e3e6f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-brand {
+    padding: 20px 15px;
+    font-weight: 700;
+    color: #333;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.sidebar-brand .logo-icon {
+    background-color: #e2e8f0;
+    color: #475569;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    color: #475569;
+    padding: 12px 20px;
+    margin: 5px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    background-color: #eef2f6;
+    color: #0d6efd;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Barra Superior (Topbar) */
+.topbar {
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom: 1px solid #e3e6f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    color: #475569;
+    font-weight: 500;
+}
+
+.user-avatar {
+    background-color: #cbd5e1;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+/* Cards e Componentes */
+.card-custom {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e3e6f0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.05);
+    margin-bottom: 24px;
+}
+
+.card-metric {
+    padding: 20px;
+}
+
+.card-metric .metric-title {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card-metric .metric-value {
+    color: #1e293b;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-header-custom {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 15px 20px;
+    font-weight: 600;
+    color: #333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Tabelas */
+.table-custom th {
+    color: #64748b;
+    font-weight: 600;
+    border-bottom: 2px solid #e3e6f0;
+}
+
+.table-custom td {
+    vertical-align: middle;
+    color: #475569;
+}
+
+/* Formulários */
+.form-control, .form-select {
+    border-radius: 6px;
+    border-color: #cbd5e1;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #94a3b8;
+    box-shadow: none;
+}
